@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ======================
+    Bootstrap link 
+    ====================== -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Panda Commerce</title>
+    <!-- =======================
+    Extra Css 
+    ======================== -->
+    <link rel="stylesheet" href="style.css">
+    <!-- ==================
+    Font awesome link 
+    ===================== -->
+    <script src="https://kit.fontawesome.com/90f9ae3511.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <header>
+        <!-- ==================
+    Navigation part
+    =================== -->
+        <section class="container">
+            <nav class="navbar navbar-expand-lg navbar-background ">
+                <div class="container">
+                    <a class="navbar-brand" href="#">
+                        <img src="images/logo.png" alt="" width="100" height="24">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"><i class="fas fa-bars text-white"></i></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active text-white fs-5" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white fs-5" href="#Shoes">Shoes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white fs-5" href="#Backpack">Backpack</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white fs-5" href="#Subscribe">Subscribe</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </section>
+        <!-- ================
+        Carousel Part 
+        ==================== -->
+        <section class="container mt-5">
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active mt-5 slider-background" data-bs-interval="10000">
+                        <div class="row d-flex p-5 align-items-center justify-content-between">
+                            <div class="col-lg-7 col-sm-12 ">
+                                <h1>Cool Dudes Headphone</h1>
+                                <p>This is the best headphone in the world for people who just want to waste time in
+                                    front
+                                    of
+                                    funky
+                                    world.
+                                </p>
+                                <h2>$416</h2>
+                                <button class="btn">Buy Now > ></button>
+                            </div>
+
+                            <div class="col-lg-5 col-sm-12">
+                                <img src="images/banner-images/headphone.png" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item mt-5 slider-background" data-bs-interval="10000">
+                        <div class="row d-flex p-5 align-items-center justify-content-between">
+                            <div class="col-lg-7 col-sm-12 ">
+                                <h1>Mega LCD TV For Sports
+                                </h1>
+                                <p>This is the best headphone in the world for people who just want to waste time in
+                                    front of funky world.
+                                </p>
+                                <h2>$420</h2>
+                                <button class="btn">Buy Now > ></button>
+                            </div>
+
+                            <div class="col-lg-5 col-sm-12">
+                                <img src="images/banner-images/tv.png" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item mt-5 slider-background" data-bs-interval="10000">
+                        <div class="row d-flex p-5 align-items-center justify-content-between">
+                            <div class="col-lg-7 col-sm-12 ">
+                                <h1>X-Box for your living room
+                                </h1>
+                                <p>This is the best headphone in the world for people who just want to waste time in
+                                    front
+                                    of
+                                    funky
+                                    world.
+                                </p>
+                                <h2>$600</h2>
+                                <button class="btn">Buy Now > ></button>
+                            </div>
+
+                            <div class="col-lg-5 col-sm-12">
+                                <img src="images/banner-images/xbox.png" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+    </header>
+    <main>
+        <!-- ====================================
+        Catagory part (It should be done by using gutter)
+        ========================================== -->
+        <section class="container mt-5">
+            <div class="catagories">
+                <div class="row group-item d-flex p-5  ">
+                    <div
+                        class="item d-flex justify-content-between align-items-center bg-warning col-sm-12 col-lg-4 p-3 g-3">
+                        <h1>Watch</h1>
+                        <img src="images/categories/watch.png" alt="">
+                    </div>
+                    <div
+                        class="item d-flex justify-content-between align-items-center bg-success col-sm-12 col-lg-4 p-3 g-3">
+                        <h1>Shoes</h1>
+                        <img src="images/categories/shoes.png" alt="">
+                    </div>
+                    <div
+                        class="item d-flex justify-content-between align-items-center bg-primary col-sm-12 col-lg-4 p-3 g-3">
+                        <h1>Bag</h1>
+                        <img src="images/categories/bag.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ======================
+        Shoes part 
+        ====================== -->
+        <section class="container mt-5">
+            <h1 id="Shoes">Shoes</h1>
+            <div class="card-group">
+                <div class="card border-0 shadow-lg mx-3">
+                    <img src="images/shoes/shoe-1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Supply 350</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+                        <button class="btn">Buy Now > ></button>
+                    </div>
+
+                </div>
+                <div class="card border-0 shadow-lg mx-3">
+                    <img src="images/shoes/shoe-2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Nike 360</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+                        <button class="btn">Buy Now > ></button>
+                    </div>
+
+                </div>
+                <div class="card border-0 shadow-lg mx-3">
+                    <img src="images/shoes/shoe-3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Red Airmax</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+                        <button class="btn">Buy Now > ></button>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- ======================
+        Backpack part 
+        ====================== -->
+        <section class="container mt-5">
+            <h1 id="Backpack">backpack</h1>
+            <div class="card-group">
+                <div class="card border-0 shadow-lg mx-3">
+                    <img src="images/bags/bag-1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Red Laltu Bag</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+                        <button class="btn">Buy Now > ></button>
+                    </div>
+
+                </div>
+                <div class="card border-0 shadow-lg mx-3">
+                    <img src="images/bags/bag-2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Blue Niltu Bag</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+                        <button class="btn">Buy Now > ></button>
+                    </div>
+
+                </div>
+                <div class="card border-0 shadow-lg mx-3">
+                    <img src="images/bags/bag-3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Black Kaltu Bag</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+                        <button class="btn">Buy Now > ></button>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- ======================
+        Subscriber part 
+        ====================== -->
+        <section class="container mt-5" id="Subscribe">
+            <div class="form p-5 d-flex justify-content-center rounded">
+                <div>
+                    <h1>LET'S STAY IN TOUCH</h1>
+                    <p>Get updates on sales, specials and more</p>
+                    <input class="w-100" type="email" name="" id="" placeholder="Your Email"><br><br>
+                    <button class="btn">SUBMIT</button>
+                </div>
+            </div>
+        </section>
+        <!-- ======================
+       Footer part 
+        ====================== -->
+        <footer class="mt-5 text-center">
+            <small>
+                ©2025. Panda Commerce. All rights reserved. Sofia, Bulgaria.
+            </small>
+        </footer>
+
+    </main>
+    <!-- =====================
+    Javascript link 
+    ===================== -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
